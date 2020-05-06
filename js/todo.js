@@ -33,3 +33,4 @@ for ( let i=0; i<todo_list.length; i++ ) {
     const todo = todo_list[i];
     const sentence = `Darbas kuri reikia padaryti yra "${todo.description}" ir ji reikia atlikti iki ${todo.deadline} siuo metu yra busenoje "${todo.status}".`;
     console.log( sentence );
+}    
